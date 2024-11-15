@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "cw7"
+version = "0.1.0"
+description = ""
+authors = ["TolyaLaz <toljik1@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "4.2.2"
+psycopg2 = "^2.9.10"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.6.0"
+celery = "^5.4.0"
+drf-yasg = "^1.21.8"
+djangorestframework-simplejwt = "^5.3.1"
+pillow = "^11.0.0"
+python-dotenv = "^1.0.1"
+ipython = "^8.29.0"
+eventlet = "^0.37.0"
+redis = "^5.2.0"
+stripe = "^11.2.0"
+serializers = "^0.2.4"
+django-filter = "^24.3"
+django-celery-beat = "^2.7.0"
+python-telegram-bot = "^21.7"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
